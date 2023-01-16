@@ -16,7 +16,7 @@ def unique_content(original):
         except Exception:  #TypeError:
             print("Error: list contains not numerical symbols")
 
-    except Exception: #TypeError:
+    except TypeError:
         print("Error: type 'list' required")
 
     if marker == 1:
